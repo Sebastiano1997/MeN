@@ -1,0 +1,163 @@
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0;
+    text-align: center;
+
+    background-color: rgb(202, 232, 245);
+    /* background-image: url("img/sfondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#id_sfondo{
+    /* background-image: url("img/sfondo.jpg"); */
+    background-size: contain;
+
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+}
+
+#id_sfondo div{
+
+    width: 200px;
+    height: 100px;
+
+    /* background-image: url("img/men.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* border: 1px solid black; */
+}
+
+/* notifica */
+
+.cl_notifica{
+    font-size: x-large;
+    margin: 10px;
+    padding: 5px;
+
+    background-color: rgba(0, 0, 0, 0.317);
+    color: rgba(240, 248, 255, 0.799);
+}
+
+/*  sezione 1 */
+
+
+#id_sezione1{
+    display: flex;
+    /* align-items: center; */
+    /* background-color: rgba(171, 209, 243, 0.607); */
+
+    /* justify-content:space-around;
+    align-items: center; */
+
+    height: 100px;
+    width: 100%;
+}
+
+#id_sezione1 #id_titolo{
+    font-size:xx-large;
+    background-color: rgba(47, 172, 191, 0.541);
+    
+
+    flex-grow: 1;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+}
+
+#id_sezione1 #id_utente{
+    font-size:xx-large;
+    background-color: rgba(147, 222, 234, 0.724);
+
+    flex-grow: 1;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+}
+
+
+/*  modifica dati */
+
+
+.cl_modificaDati{
+    font-size: x-large;
+
+    margin: 50px;
+    padding: 10px;
+
+    background-color: rgba(240, 248, 255, 0.614);
+
+    border: 1px solid black;
+}
+
+.cl_modificaDati .cl_salva{
+
+    background-color: rgba(87, 232, 232, 0.434);
+
+    margin: 10px;
+    font-size: x-large;
+}
+
+
+
+/* logOut */
+
+#id_logout a button{
+    margin: 3px;
+    font-size: large;
+
+    background-color: rgba(170, 240, 240, 0.71);
+}
+
+/* home */
+#id_home{
+    font-size: large;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+footer{
+
+
+    width: 100%;
+    min-height: 100px;
+
+    margin-top: 20px;
+
+    background-color: rgb(0, 0, 0);
+
+    color: aliceblue;
+   
+}
+
+/* --------- */
+
+.cl_figlioModifica{
+    display: none;
+}
+
+.cl_barraModifica{
+    visibility:hidden;
+}

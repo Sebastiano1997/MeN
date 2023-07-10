@@ -1,0 +1,534 @@
+
+body{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-image: url("img/2_home_sfondoBody.png"); */
+    background-size: cover;
+    background-color: rgba(179, 173, 173, 0.527);
+
+    margin: 0;
+
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* -----  */
+/* -->cerca/categoria */
+
+#id_blocco2{
+    display: none;
+}
+
+/* -----------------------------------------------------------------------------------------------------  */
+
+
+
+
+
+
+
+
+
+/* ------------------- */
+
+#id_titolo{
+
+    height:   150px;
+    width: 100%;
+
+    /* border: 2px solid brown; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    /* background-image: url("img/sfondo_titolo.png"); */
+    /* background-image: url("img/sfondo3.jpg"); */
+    background-size:contain;
+    background-position: center;
+}
+#id_titolo h1{
+
+  height: 100px;
+  width: 200px;
+
+ 
+    
+    color: rgba(240, 248, 255, 0.861);
+    /* background-color: rgba(165, 42, 42, 0.974); */
+    /* background-image: url("img/men.png"); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-radius:100%; */
+
+    /* border: 2px solid black; */
+
+    padding: 1%;
+    
+}
+
+#id_titolo h1:hover{
+cursor:pointer;
+}
+
+
+
+/* ------------------------- */
+nav {
+    /* position:sticky; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    width: 100%;
+    /* height: 75px; */
+    padding: 2px;
+
+    background-color: rgba(0, 0, 0, 0.411);
+ }
+
+ 
+
+
+/* 1o elemento */
+
+
+.cl_utente{
+
+    max-width: 100px;
+
+    width: 33%;
+
+    margin:10px;
+
+}
+
+
+
+    .cl_utente #id_nomeUtente{
+     
+        font-size: 1em;
+
+        color: rgb(14, 69, 118);
+        background-color: rgba(255, 255, 255, 0.822);
+        border-radius: 10%;
+        padding: 2px;
+        
+    }
+
+    .cl_utente:hover{
+        cursor:pointer;
+    }
+
+    .cl_utente #id_logout{
+        color: rgb(43, 41, 181);
+    }
+
+    /* 2o elemento */
+
+     
+     #id_formBarra{
+        border: 1px solid black;
+
+        width: 60%;
+        padding: 5px;
+
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        background-color:rgba(230, 11, 11, 0.801) ;
+
+     }
+
+     #id_formBarra #id_barra{
+
+
+        width: 80%;
+
+        font-size: 1.2em;
+     }
+
+     #id_formBarra #id_bnCerca{
+        display: flex;
+
+        /* height: 69%;
+        margin: 1px 0px; */
+        
+        /* border: 1px solid black; */
+     }
+     
+
+     #id_formBarra #id_bnCerca input{
+
+        /* width:100%; */
+
+        
+        border-radius: 100%;
+        
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(255, 255, 255, 0.888);
+       
+        font-size:1.2em ;
+        
+     }
+     
+     #id_formBarra #id_bnCerca input:hover{
+        cursor:pointer;
+     }
+
+     /* ----------------- */
+
+     #id_menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+        flex-grow: 1;
+
+        /* border: 1px solid black; */
+     }
+
+        /* 3o elemento */
+
+        #id_listaPreferiti{
+            /* width: auto; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+           margin: 2px;
+
+           /* border: 1px solid rgba(0, 0, 0, 0.253); */
+        
+        }
+        #id_listaPreferiti div{
+            font-size: 2em;
+
+            padding: 2px;
+
+
+            border: 1px solid rgba(0, 0, 0, 0.253);
+            border-radius: 100px;
+            background-color: rgba(243, 243, 243, 0.579);
+
+        }
+
+
+
+     /* 4o elemento */
+
+
+     .cl_carrello{
+
+        margin: 2px;
+
+        text-align: center;
+
+        /* border: 1px solid black; */
+        /* margin: 5px 0px; */
+        border: 1px solid rgba(0, 0, 0, 0.292);
+        padding: 5px;
+        border-radius: 25%;
+        background-color: rgba(243, 243, 243, 0.678);
+     }
+
+     .cl_carrelloNum{
+
+        color: aliceblue;
+        background-color: rgba(228, 9, 9, 0.533);
+        border-radius: 100%;
+
+        padding: 3px;
+
+        top: 1px;
+        
+     }
+
+    .cl_carrello #id_carrello{
+        /* background-color: aliceblue; */
+        margin-bottom: 5px;  
+        font-size: 1.5em;
+     }
+
+
+     /* 5o elemento */
+
+     #id_impostazioni{
+
+        margin: 2px;
+        
+        /* margin:5px 0px; */
+         display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.5em;
+
+        padding: 2px;
+        border-radius: 100px;
+        border: 1px solid rgba(0, 0, 0, 0.234);
+         background-color: rgba(243, 243, 243, 0.678);
+    }
+
+
+    /* 6o elemento */
+
+    #id_menuTendina{
+       
+        margin: 10px;
+
+        position: relative;
+
+        display: none;
+    }
+
+    #id_bnTendina{
+        background-color: rgba(230, 8, 8, 0.79);
+        border:1px solid rgba(240, 248, 255, 0.692);
+        border-radius: 100%;
+        padding: 1px;
+
+    }
+
+
+    #id_tendina{
+        position: absolute;
+        right: 0px;
+        background-color: rgba(240, 248, 255, 0.365);
+
+        border-radius: 10%;
+
+        display: none;
+    }
+
+
+    .cl_impostazioni,.cl_carrelloTendina,.cl_listaPreferiti{
+        /* margin: 1px; */
+        margin: 1px;
+
+        font-size: large;
+    }
+
+    /* -------------- */
+   
+    #id_categoria{
+        background-color: rgba(0, 0, 0, 0.697);
+        width: fit-content;
+        padding: 5px;
+        
+    }
+
+    .cl_bnSxDx{
+       background-color: rgba(241, 22, 22, 0.685);
+       border-color: rgba(0, 0, 0, 0.545);
+
+       margin: 5px ;
+    }
+    .cl_bnCategorie{
+        background-color: rgb(116, 106, 106);
+        color: rgba(255, 255, 255, 0.689);
+    }
+
+
+/*   ------------------- blocchi */
+     
+    .cl_blocchi{
+    width: 100vw;
+    /* height: 300px; */
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.118);
+
+    
+
+
+
+    /* border: 1px solid black; */
+    }
+
+    .cl_titoloBlocco{
+        color: aliceblue;
+        font-size: larger;
+        background-color: rgba(207, 18, 18, 0.725);
+
+        width: fit-content;
+
+        border-radius: 20%;
+        margin: 10px 2px 5px 20px;
+        padding: 5px;
+    }
+
+    .cl_prodotto{
+        display: flex;
+        flex-direction: column;
+
+        width: calc(100vw/3 - 60px);
+        /* font-size:calc(100vw/3 - 60px) ; */
+        
+        margin: 0px 4px;
+        
+        /* border: 1px solid rgb(255, 0, 0); */
+
+    }
+
+    .cl_prodotto img{
+        
+
+        width: 100%;
+        /* width: calc(100vw/3 - 60px); */
+
+        max-height:200px;
+        max-width: fit-content; 
+
+        border: 2px solid rgba(181, 12, 12, 0.788);
+
+        border-radius: 10%;
+
+    }
+
+    .cl_prodotto .cl_titoloProdotto{
+
+        width: 100%;
+
+        margin: 1px;
+        font-size: larger;
+        /* font-size:10%; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        background-color: rgba(209, 22, 22, 0.318);
+        color: rgb(255, 244, 240);
+
+        /* border: 1px solid black; */
+        border-radius: 10%;
+
+    }
+    .cl_operazioniProdotto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+        
+        /* height: 10%; */
+
+        /* border: 1px solid black; */
+    }
+
+    .cl_operazioniProdotto .cl_cuore,.cl_carrelloProdotto{
+
+
+        border: 1px solid rgba(0, 0, 0, 0.482);
+        background-color: rgba(42, 41, 41, 0.793);
+        border-radius: 100%;
+        padding: 4px;
+
+        /* font-size: 10%; */
+    }
+
+
+    .cl_prezzo{
+        color:rgb(226, 205, 205);
+        border: 1px solid rgba(0, 0, 0, 0.482);
+        background-color: rgba(0, 0, 0, 0.793);
+        padding: 4px;
+        border-radius: 100%;
+
+        font-size:larger;
+        /* font-size: 10%; */
+    }
+
+    /*  bn ...  */
+
+    .cl_carica{
+        background-color: aliceblue;
+        border-radius: 100%;
+        border: 2px solid black;
+        margin: 5px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size:xx-large;
+        font-weight: bold;
+
+        width: 50px;
+        height: 50px;
+
+         
+    }
+
+    .cl_carica:hover{
+        cursor: pointer;
+    }
+ 
+
+
+    /* footer            */
+
+    footer{
+        width: 100%;
+
+        margin-top: 20px;
+
+        background-color: rgb(0, 0, 0);
+
+        color: aliceblue;
+       
+    }
+
+    /*  media */
+    @media (max-width: 500px) {
+        #id_menu {
+        display: none;
+        }
+        #id_menuTendina{
+            display: block;
+        }
+        #id_tendina{
+            display: block;
+        }
+
+        .cl_operazioniProdotto{
+
+            flex-direction: column;
+
+        }
+
+
+       }
+
+
+
+
+
+       #id_bnTendina:hover{
+        cursor: pointer;
+       }
+
+       .cl_carrelloProdotto:hover,.cl_cuore:hover{
+
+       cursor:pointer;
+        }

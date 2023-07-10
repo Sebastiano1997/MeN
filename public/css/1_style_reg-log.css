@@ -1,0 +1,80 @@
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+
+    background-color: rgb(232, 224, 211);
+}
+
+
+
+
+
+.cl_linkRegLog{
+    color: rgb(9, 95, 208);
+    text-decoration:underline;
+}
+
+.cl_linkRegLog:hover{
+    cursor: pointer;
+}
+
+
+#id_sfondo{
+   
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid black; */
+
+    /* background-image: url("img/sfondo1.jpg"); */
+    background-size: contain;
+
+    text-align: end;
+}
+
+#id_sfondo h1{
+
+    height: 100px;
+    width: 200px;
+
+    /* background-image: url(img/men.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+#id_login,#id_reg{
+    /* border: 1px solid black; */
+
+    margin: 50px;
+
+    width: 70%;
+
+    /* text-align: center; */
+
+    background-color: rgba(203, 58, 51, 0.612);
+    border-radius: 10%;
+
+}
+
+#id_login div, #id_reg div{
+    margin: 10px;
+}
+
+.cl_errore{
+    color: rgba(219, 17, 17, 0.904);
+    background-color: rgba(240, 248, 255, 0.766);
+}
+
+#id_reg{
+    display: none;
+}
